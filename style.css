@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    background-color: rgb(115, 105, 230);
+    font-family: 'Pixelify Sans',Arial;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    text-align: 12;
+    opacity: 0,4;
+}
+
+form{
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(27, 27, 27, 0.548);
+}
+
+.input{
+    width: 97.6%;
+    border: none;
+    padding: 0.9rem 0.3rem;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.input:focus{
+    outline-color: rgb(252, 252, 252);
+}
+
+.todos{
+    background: rgba(255, 255, 255, 0.568);
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.todos li{
+    border-top: 2cm, double, rgb(255, 255, 255);
+    padding: 0.2rem 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.todos li.completed{
+    color: rgb(0, 0, 0);
+    text-decoration: rgb(132, 0, 255) line-through;
+}
+
+small{
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    text-align: center;
+}
